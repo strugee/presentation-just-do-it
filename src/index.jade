@@ -12,48 +12,154 @@ html
 		article
 
 			section
-				h1 Just Do It
+				h1.bullet Just Do It
+				h3.bullet Alex Jordan
 
 			section
-				h2 Bullet List
-				h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-				ul
-					li Bullet 1
-					li Bullet 2
-					li Bullet 3
+				h2.bullet About moi
+				h3.bullet Arch Linux
+				h3.bullet Emacs
+				h3.bullet Git
+				h3.bullet zsh
+				h3.bullet Node.js
+				h3.bullet Firefox
 
 			section
-				h2 Syntax Highlighting
-				h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-				pre
-					code.language-javascript.
-						bespoke.from('article', [
-							classes(),
-							keys(),
-							touch(),
-							bullets('li, .bullet')
-						]);
+				h2.bullet Also about moi
+				h3.bullet Radical FLOSS zealot
+				h3.bullet Self-hoster
+				h3.bullet High school senior
+				h3.bullet he/him
 
-			section(data-bespoke-hash='named-route')
-				h2 Named Route
-				h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-				p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+			section
+				h2.bullet I'll get right into it.
+				h3.bullet LOOK AT WHAT COMPUTERS CAN DO.
 
 			section.emphatic-text(data-bespoke-backdrop='emphatic')
-				h2 Emphatic Slide!
-				h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+				pre
+					code.language-sh.
+						% python3
+						Python 3.4.2 (default, Oct	8 2014, 10:45:20)
+						[GCC 4.9.1] on linux
+						Type "help", "copyright", "credits" or "license" for more information.
+						>>>
 
 			section
-				h2.bullet Just the beginning...
-				br
-				ul
-					li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-					li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-					li Edit JavaScript in <em>'src/scripts/main.js'</em>
-				br
-				ul
-					li
-						strong Enjoy! :)
-						a(href='http://twitter.com/markdalgleish')	-@markdalgleish
+				h2.bullet Um, I see that every day.
+				h3.bullet It's just a Python prompt.
+				h3.bullet Yeah, but not everyone sees that.
+
+			section
+				h2.bullet Away from FLOSS...
+				h3.bullet There's no equivalent.
+
+			section
+				h3.bullet On Windows, C# is the dominant language.
+				h3.bullet On OS X, it's Swift.
+				h3.bullet Guess what? They're both compiled.
+				h3.bullet (Swift has the concept of "playgrounds", but it's not the same.)
+
+			section
+				h2.bullet So you want to use Python (on a proprietary platform)
+				h3.bullet Have fun.
+				h3.bullet C# <em>looks</em> like Windows.
+				h3.bullet Swift <em>looks</em> like OS X.
+				h3.bullet If you don't use them, you'll be fighting.
+
+			section
+				h2.bullet A language "looks" like something?
+				h3.bullet Languages have designs,
+				h3.bullet regardless of the author's intent.
+				h3.bullet Any language that doesn't intentionally follow a design will fail.
+				h3.bullet Unless, of course, it's orders of magnitude easier for web scripting and shared hosting.
+
+			section
+				img(src='images/php.png', width='500', height='268')
+
+			section
+				h2.bullet Operating systems have designs, too.
+				h3.bullet A programming language takes a certain view of the world:
+				h3.bullet How objects map to underlying resources
+				h3.bullet How the filesystem works
+				h3.bullet How processes and threads are modeled
+				h3.bullet What users are
+
+			section
+				h2.bullet Example: OpenCV in Java
+				h3.bullet In robotics, we started looking at OpenCV's Java bindings
+				h3.bullet Matt: "where are the pointers?"
+				h3.bullet Java doesn't have pointers...
+				h3.bullet ...but the API looked like it should, because it was a port from C
+
+			section
+				h2.bullet In FLOSS?
+				h3.bullet C <em>looks</em> like POSIX.
+				h3.bullet Python <em>looks</em> like POSIX.
+				h3.bullet Even shell is more POSIX than C# or Swift.
+				h3.bullet It's POSIX all the way down.
+
+			section
+				h2.bullet Why POSIX?
+				h3.bullet POSIX = Unix
+				h3.bullet And Unix was built by engineers, for engineers
+				h3.bullet Windows and OS X are built for users and enterprises
+
+			section
+				h2.bullet "The enterprise"
+				h3.bullet C# and Swift are compiled because compiled languages are "fit for the enterprise"
+				h3.bullet They're "what professionals use"
+				h3.bullet They're performant
+				h3.bullet C# and Swift are rigid and correct
+				h3.bullet Python is not. Python is infinitely flexible.
+
+			section
+				h2.bullet Back to Python
+				h3.bullet Python is flexible
+				h3.bullet Python is somewhat forgiving
+				h3.bullet Python requires no boilerplate
+				h3.bullet <code>print('Hello World!')</code>
+
+			section
+				h2.bullet Why those things?
+				h3.bullet Because Python is designed by engineers, for engineers
+				h3.bullet Those things make sense
+				h3.bullet They make for code that is elegant and beautiful
+
+			section
+				h2.bullet Elegance & beauty
+				h3.bullet Ruby is the fully-fledged embodiment of this idea
+				h3.bullet "Describe your program in an English sentence. Congradulations, you just wrote some Ruby."
+
+			section.emphatic-text(data-bespoke-backdrop='emphatic')
+				pre
+					code.language-sh.
+						% python3
+						Python 3.4.2 (default, Oct	8 2014, 10:45:20)
+						[GCC 4.9.1] on linux
+						Type "help", "copyright", "credits" or "license" for more information.
+						>>>
+
+			section
+				h2.bullet <code>% python3</code>
+				h3.bullet Having an interactive prompt makes sense
+				h3.bullet <em>Especially</em> since our community values hackability so much
+				h3.bullet This is <em>the</em> reason why people teach programming with Python.
+
+			section
+				h2.bullet Just code
+				h3.bullet Nothing getting in your way
+				h3.bullet No boilerplate
+				h3.bullet No overengineered architecture
+				h3.bullet Just stuff that makes sense.
+				h3.bullet "Why do I have to use this <code>AbstractUnicodeStringFactoryFactory</code>?
+
+			section.emphatic-text(data-bespoke-backdrop='emphatic')
+				h2.bullet So why do we lose them?
+
+			section
+				h2.bullet Thoughts?
+				h3.bullet <a href="https://twitter.com/strugee2">@strugee2</a>
+				h3.bullet <a href="https://pump.strugee.net/alex">alex@pump.strugee.net</a>
+				h3.bullet <a href="https://strugee.net/">strugee.net</a>
 
 		script(src='build/build.js')
